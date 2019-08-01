@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: netty-channel-fsm-osgi
+Bundle-SymbolicName: netty-channel-fsm-osgi
+Bundle-Version: 0.3.0
+Automatic-Module-Name: netty-channel-fsm-osgi
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: com.digitalpetri.strictmachine;version="0.1.0",
+ com.digitalpetri.strictmachine.dsl;version="0.1.0",
+ io.netty.channel;version="[4.1.0,4.2.0)",
+ io.netty.handler.timeout;version="[4.1.0,4.2.0)",
+ org.slf4j;version="[1.7.25,1.8.0)"
+Export-Package: com.digitalpetri.netty.fsm;version="0.3.0",
+ com.digitalpetri.netty.fsm.util;version="0.3.0"
+Bundle-Vendor: com.digitalpetri
